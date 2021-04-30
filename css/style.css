@@ -1,0 +1,43 @@
+/******************* Tag Selectors ******************/
+
+
+a:hover
+{
+  color:green;
+}
+
+body
+{
+  background-color: #EAF6F6;
+}
+
+hr
+{
+  background-color:#EAF6F6;
+  /*background-image: google, how to use it;
+  height: 10px; height doesnt matter when border-style:none;*/
+  border-style: none;
+  border-top: 7px dotted grey; /* way3: border-top-width: 7px; way2: border-top-width:thick; */
+  /* border style: dotted none none; (border-style:top LR bottom);
+  border-color:grey;
+  border-width:5px;
+  angela did this instead of my last 2 lines; */
+  width:50px; /* way2: width: 5%; */
+}
+
+h1
+{
+  color: #1FC7EA;
+}
+
+h2,h3
+{
+  color: #66BFBF; /*color: rgba(10,20,30,0.4)*/
+}
+
+/******************* Class Selectors ******************/
+
+.shivam img
+{
+  border-radius: 60%;
+}
